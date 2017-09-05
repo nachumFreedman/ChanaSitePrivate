@@ -1,6 +1,29 @@
-a[role="menuitem"]:hover div { 
-  background-color: rgb(18, 31, 79);
-};
-.RaisedBotton {
-  box-shadow: 2px 6px 5px black;
+
+.header-container {
+  display: flex;
+  flex-direction:row;
+  position: static;
+  width: 100%;  
+}
+
+.header-home {
+padding-left: 10vw;  
+}
+
+
+.header-examples {
+  
+  border-left: 1px solid black;
+}
+
+
+.header-contact {
+  
+  border-left: 1px solid black;
+}
+
+
+.header-blog {
+  right: 90%; 
+  border-left: 1px solid black;
 }

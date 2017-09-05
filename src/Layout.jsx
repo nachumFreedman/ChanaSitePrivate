@@ -22,8 +22,7 @@ class Layout extends Component {
 
     
     return (
-      <div style={pageContainer}>
-        <HeaderMobile/>
+      <div >
         {this.props.children}
       </div>
     )
