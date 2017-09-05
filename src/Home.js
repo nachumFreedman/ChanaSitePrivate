@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
-import backgroundhomepicture from './img/pexels-photo-444964.jpeg';
+import backgroundhomepicture from './img/jerusalem.jpg';
 import HeaderMobile from './HeaderMobile'
 
 class Home extends Component {
