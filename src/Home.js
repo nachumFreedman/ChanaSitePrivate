@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './home.css';
-import backgroundhomepicture from './img/jerusalem.jpg';
-import HeaderMobile from './HeaderMobile'
-
-class Home extends Component {
+import HomePagePicture from './img/jerusalem.jpg';
+import HeaderMobile from './HeaderMobile';
+class Home extends Component  {
   render() {
     return (
       <div>
@@ -17,7 +16,7 @@ class Home extends Component {
           <div className='techscope-paragraph'>
             We work with you <br/> building the world <br/> from Israel
           </div>
-          <img src={backgroundhomepicture} alt="" className='homepage-background'/>
+          <img src={HomePagePicture} alt="" className='homepage-background'/>
         </div>
         <div className='header-bar-home'>
           <HeaderMobile/>

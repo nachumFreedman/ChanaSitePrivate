@@ -1,29 +1,45 @@
 
-.header-container {
+.header-container  {
   display: flex;
   flex-direction:row;
-  position: static;
+  position: fixed;
   width: 100%;  
+  background-color: black;
+  height: 10vh;
+  top: 90vh;
+  z-index:1;
 }
 
 .header-home {
-padding-left: 10vw;  
+  padding-left: 18vw;
+  color: white;
+  font-size: 8vh;
+  padding-right: 2vw;
+  curser: pointer;
 }
 
 
 .header-examples {
-  
-  border-left: 1px solid black;
+  color: white;
+  font-size: 8vh;
+  border-left: 1px solid white;
+  padding-right: 2vw;
+  padding-left: 2vw;
 }
 
 
 .header-contact {
-  
-  border-left: 1px solid black;
+  color: white;
+  font-size: 8vh;
+  border-left: 1px solid white;
+  padding-right: 2vw;
+  padding-left: 2vw;
 }
 
 
 .header-blog {
-  right: 90%; 
-  border-left: 1px solid black;
+  color: white;
+  padding-left: 2vw;
+  font-size: 8vh;
+  border-left: 1px solid white;
 }

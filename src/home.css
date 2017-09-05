@@ -1,8 +1,9 @@
 .homepage-background {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: auto;
-  z-index: 1;
+  max-height: 100vh;
+  z-index: 2;
   opacity: 0.2;
 }
 
@@ -21,7 +22,7 @@
 .techscope-body {
   position: absolute;
   color: #660000;
-  z-index: 2;
+  z-index: 3;
   font-weight: 900;
   top: 77px;
   left: 59px;
@@ -32,7 +33,7 @@
 .techscope-paragraph {
   position: absolute;
   color: #808080;
-  z-index: 2;
+  z-index: 3;
   font-weight: 900;
   top: 20vw;
   left: 34vw;
