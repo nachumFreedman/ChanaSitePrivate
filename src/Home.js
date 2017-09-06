@@ -14,13 +14,11 @@ class Home extends Component  {
             Developers building Israel
           </div>
           <div className='techscope-paragraph'>
-            We work with you <br/> building the world <br/> from Israel
+            Making your vision <br/> REALITY
           </div>
           <img src={HomePagePicture} alt="" className='homepage-background'/>
         </div>
-        <div className='header-bar-home'>
           <HeaderMobile/>
-        </div>
       </div>
     );
   }
