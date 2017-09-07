@@ -23,9 +23,9 @@ ReactDOM.render(
           <Switch>
             
 
-                <Route key={home} path='/home' exact component={home}/>
+                <Route key={home} path='/' exact component={home}/>
               
-            <redirect to='/home' from='/'/>
+
             
           </Switch>
         </Layout>
