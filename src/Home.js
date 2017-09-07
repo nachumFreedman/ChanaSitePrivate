@@ -43,7 +43,13 @@ class Home extends Component  {
           <div className='home-about-paper'>
           </div>
           <div className='home-about-paper-white-1'>
-            <img src={HomeAboutReactPicture} alt="" className='home-about-paper-white-1-img'/> <div className='home-about-paper-white-1-header'>We use React.JS</div>
+            <img src={HomeAboutReactPicture}
+                 alt=""
+                 className='home-about-paper-white-1-img'/>
+            <h1 className='home-about-paper-white-1-header'>
+              We use React.JS
+            </h1>
+            <p className='home-about-paper-white-1-body'>Because we care about the product</p>
           </div>
           <div className='home-about-paper-white-2'></div>
           <div className='home-about-paper-white-3'></div>
