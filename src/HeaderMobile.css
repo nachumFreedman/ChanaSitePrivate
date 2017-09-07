@@ -5,41 +5,49 @@
   position: fixed;
   width: 100%;  
   background-color: black;
-  height: 10vh;
+  height: 60px;
   top: 90vh;
   z-index:4;
 }
 
 .header-home {
-  padding-left: 18vw;
+  padding-left: 27vw;
   color: white;
-  font-size: 8vh;
+  font-size: 4vh;
   padding-right: 2vw;
   curser: pointer;
+  padding-top: 1.5vh;
+  cursor: pointer;
 }
 
 
 .header-examples {
   color: white;
-  font-size: 8vh;
+  font-size: 4vh;
   border-left: 1px solid white;
   padding-right: 2vw;
   padding-left: 2vw;
+  padding-top: 1.5vh;
+  cursor: pointer;
 }
 
 
 .header-contact {
   color: white;
-  font-size: 8vh;
+  font-size: 4vh;
   border-left: 1px solid white;
   padding-right: 2vw;
   padding-left: 2vw;
+  padding-top: 1.5vh;
+  cursor: pointer;
 }
 
 
 .header-blog {
   color: white;
   padding-left: 2vw;
-  font-size: 8vh;
+  font-size: 4vh;
   border-left: 1px solid white;
+  padding-top: 1.5vh;
+  cursor: pointer;
 }

@@ -4,7 +4,7 @@ import './HeaderMobile.css';
 class HeaderMobile extends Component {
   render() {
     return (
-      <div className='header-container'>
+      <div className='header-container' style={this.props.style}>
         <div className='header-home'>
           Home
         </div>
