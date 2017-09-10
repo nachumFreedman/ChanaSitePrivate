@@ -9,7 +9,6 @@ body {
 }
 
 .homepage-background {
-  position: absolute;
   width: 100vw;
   height: auto;
   max-height: 100vh;
@@ -17,19 +16,14 @@ body {
   opacity: 0.2;
 }
 
-.techscope-header-container div{
+.techscope-header-container div {
   position: absolute;
 }
 
 .techscope-header {
-  color: black;
   z-index: 2;
-  font-weight: 900;
-  top: 15vh;
-  left: 2.4vw;
-  font-size: 12.5rem;
-  text-shadow: 1px 1px grey;
-  letter-spacing: -.64rem;
+  top: 24vh;
+  left: 4vw;
 }
 
 .techscope-body {
@@ -59,7 +53,7 @@ body {
   position: static;
 }
 
-.homepage-background-second {
+.homepage-background-example {
   position: absolute;
   right: 0;
   height: 100vh;
@@ -67,13 +61,18 @@ body {
 
 }
 
-.secondpage-paper {
+.examplepage-paper {
   position: absolute;
+  z-index: 2;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;  
   background-color: grey;
   color: #eeeeee;
   min-width: 300px;
   width: 25%;
-  height: 1000px;
   max-height: 60%;
   top: 25vh;
   left: 12vw;
@@ -85,13 +84,17 @@ body {
   padding-right: 1vw;
   box-shadow: -2px 2px 6px #888888;
   text-shadow: 1px 1px grey;
+  padding: 3%;
 }
 
-.secondpage-paper p{
-  text-size: 8vh;
+.examplepage-paper p{
+  font-size: 2rem; 
+  margin-top: 0;
 }
 
-.second {
+
+
+.example {
   background-color: #dadada;
 }
 
@@ -102,77 +105,186 @@ body {
 .home-about-picture {
   position: absolute;
   right: 0;
-  min-height:100%;
-
+  width: 50vw;
+  height: 100%;
 }
 
 .home-about-paper {
   position: absolute;
   top: 15vh;
-  right: 7vw;
+  right: 4vw;
   background-color: black;
   width: 40vw;
   height: 70vh;
   border-radius: 3px;
   opacity: 0.5;
+  color: white;
+  z-index: 2;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
 }
 
+.home-about-paper:hover {
+  box-shadow: 5px 5px 15px #990000;
+}
+
+
 .home-about-paper-header {
-  position: absolute;
   color: white;
-  opacity: 1;
-  top: 17vh;
-  right: 19vw;
   font-size: 3rem;
-  z-index: 2;
+  z-index:6;
+  padding-bottom: 4vw;
 }
 
 .home-about-paper-body {
-  position: absolute;
   color: white;
   opacity: 1;
   font-size: 2rem;
-  max-width: 30vw;
-  right: 12vw;
-  top: 35vh;
   z-index: 2;
   text-align: center;
+  padding: 2vw;
+  padding-top: 0;
 }
 
 .home-about-paper-white-1 {
   display: flex;
   position: absolute;
-  top: 15vh;
+  top: 23vh;
   left: 10vw;
   width: 80vw;
   max-width: 400px;
   min-height: 100px;
   background-color: white;
   border-radius: 4px;
-  box-shadow: 4px 4px 2px #dd1919;
-  flex-rap: wrap;
+  box-shadow: 4px 4px 2px #gg1919;
+}
+
+.home-about-paper-white-1:hover {
+  box-shadow: 5px 5px 10px #dd1919;
 }
 
 .home-about-paper-white-1-header {
+  display: flex;
   font-size: 2rem;
-  margin-top: 0;
+  margin-top: 1vh;
+  width: 100%;
+  left: 20vw;
+  flex-wrap: wrap;
+  margin-left: 1vw;
 }
 
 
+
 .home-about-paper-white-1-body {
+  margin-left: 1vw;
   font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  left: 1vw;
 }
 
 .home-about-paper-white-1-img {
   max-height: 100px;
-  margin-top: 2vh;
-  margin-left: 1vw;
+  margin-top: 1vh;
+  margin-left: .5vw;
 }
 
 .home-about-paper-white-2 {
-  
+  display: flex;
+  position: absolute;
+  top: 45vh;
+  left: 10vw;
+  width: 80vw;
+  max-width: 400px;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 2px #gg1919;
 }
 
-.home-about-paper-white-3 {
+.home-about-paper-white-2:hover {
+  box-shadow: 5px 5px 10px #dd1919;
+}
 
+.home-about-paper-white-2-header {
+  display: flex;
+  font-size: 2rem;
+  margin-top: 1vh;
+  width: 100%;
+  left: 20vw;
+  flex-wrap: wrap;
+  margin-left: 1vw;
+}
+
+
+.home-about-paper-white-2-body {
+  margin-left: 1vw;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  left: 1vw;
+}
+
+.home-about-paper-white-2-img {
+  max-height: 100px;
+  margin-top: 1vh;
+  margin-left: .5vw;
+}
+
+
+.home-about-paper-white-3 {
+  display: flex;
+  position: absolute;
+  top: 67vh;
+  left: 10vw;
+  width: 80vw;
+  max-width: 400px;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 2px #gg1919;
+}
+
+.home-about-paper-white-3:hover {
+  box-shadow: 5px 5px 10px #dd1919;
+}
+
+.home-about-paper-white-3-header {
+  display: flex;
+  font-size: 2rem;
+  margin-top: 1vh;
+  width: 100%;
+  left: 20vw;
+  flex-wrap: wrap;
+  margin-left: 1vw;
+}
+
+.home-about-paper-white-3-body {
+  margin-left: 1vw;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  left: 1vw;
+}
+
+.home-about-paper-white-3-img {
+  max-height: 100px;
+  margin-top: 1vh;
+  margin-left: .5vw;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.home-contact-header {
+  position: absolute;
+  left: 45vw;
+  height: 10vh;
 }
