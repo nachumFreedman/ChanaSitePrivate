@@ -13,7 +13,7 @@ body {
   height: auto;
   max-height: 100vh;
   z-index: 2;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 .techscope-header-container div {
