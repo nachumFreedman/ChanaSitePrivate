@@ -160,11 +160,12 @@ body {
   min-height: 100px;
   background-color: white;
   border-radius: 4px;
-  box-shadow: 4px 4px 2px #gg1919;
+  box-shadow: 5px 5px 5px #dd1919;
+
 }
 
 .home-about-paper-white-1:hover {
-  box-shadow: 5px 5px 10px #dd1919;
+  box-shadow: 0 0;
 }
 
 .home-about-paper-white-1-header {
@@ -203,11 +204,12 @@ body {
   min-height: 100px;
   background-color: white;
   border-radius: 4px;
-  box-shadow: 4px 4px 2px #gg1919;
+  box-shadow: 7px 7px 5px #dd1919;
+
 }
 
 .home-about-paper-white-2:hover {
-  box-shadow: 5px 5px 10px #dd1919;
+  box-shadow: 0 0;
 }
 
 .home-about-paper-white-2-header {
@@ -246,11 +248,12 @@ body {
   min-height: 100px;
   background-color: white;
   border-radius: 4px;
-  box-shadow: 4px 4px 2px #gg1919;
+  box-shadow: 7px 7px 5px #dd1919;
+
 }
 
 .home-about-paper-white-3:hover {
-  box-shadow: 5px 5px 10px #dd1919;
+  box-shadow: 0 0;
 }
 
 .home-about-paper-white-3-header {
