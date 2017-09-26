@@ -9,6 +9,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import ResponsiveProvider from './ResponsiveProvider';
 import Layout from './Layout';
 
+
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
@@ -21,12 +22,7 @@ ReactDOM.render(
       <ResponsiveProvider>
         <Layout>
           <Switch>
-            
-
-                <Route key={home} path='/' exact component={home}/>
-              
-
-            
+            <Route key={home} path='/' exact component={home}/>            
           </Switch>
         </Layout>
       </ResponsiveProvider>

@@ -79,8 +79,7 @@ class Home extends Component  {
 
         <div className='page-section contact'>
           <div>
-            <h1 className='home-contact-header'>Contact</h1>
-            <div className='self-closing-div home-contact-line'/>
+            <h1 className='home-contact-header-'>Contact</h1>
           </div>
         </div>
       </div>

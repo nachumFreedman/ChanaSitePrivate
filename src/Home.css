@@ -1,3 +1,4 @@
+
 body {
   overflow-x: hidden;
 }
@@ -6,6 +7,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
+  display: flex;
 }
 
 .homepage-background {
@@ -58,7 +60,6 @@ body {
   right: 0;
   height: 100vh;
   z-index: 3;
-
 }
 
 .examplepage-paper {
@@ -283,11 +284,18 @@ body {
 .contact {
   background-color: black;
   color: white;
-  height: 100vh;
 }
 
 .home-contact-header {
   position: absolute;
-  left: 45vw;
+  left: 43vw;
   height: 10vh;
+  top: 10vh;
+}
+
+.home-contact-line {
+  position: absolute;
+  border: 2px solid #437F97;
+  width:100vw;
+  top: 20vh;
 }
