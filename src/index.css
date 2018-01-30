@@ -16,3 +16,12 @@ ol li {
 ol > li {
   list-style: decimal;
 }
+
+h1 {
+  text-shadow: 0 0 5px white;
+}
+
+@font-face {
+  font-family: 'precious';
+  src: url(font/precious.ttf) format('truetype');
+}

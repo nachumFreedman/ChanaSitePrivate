@@ -9,6 +9,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import ResponsiveProvider from './ResponsiveProvider';
 import Layout from './Layout';
 
+import './vendor/css/bootstrap.min.css';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
